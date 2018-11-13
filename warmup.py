@@ -86,7 +86,7 @@ each of which tuple contains 2 integers.
 def parse_memory_map(file_map):
     parsed_values = []
 
-    for i in range(22):  # ~~~ MODIFY THIS LINE (iii) ~~~
+    for i in range(21):  # ~~~ MODIFY THIS LINE (iii) ~~~
         parsed_values.append(
             unpack("<iq", file_map[i * 12 : i * 12 + 12]))  # ~~~ MODIFY THIS LINE (iv) ~~~
 
